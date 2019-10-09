@@ -11,6 +11,29 @@ h1, h2, h3, h4, li {
     font-family: 'Merriweather', serif; 
 }
 
+html {
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+}
+
+header {
+    background-color: rgb(44, 57, 69);
+    display: block; 
+    overflow: auto;
+    padding: 22px 0;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+}
+
+h1 {
+    color:  rgb(44, 57, 69);
+}
+
+p {
+    
+}
+
 
 
 /* Tablet Media Query */

@@ -5,6 +5,11 @@
     font-family: 'Merriweather', serif;
 }
 
+/* Base Element Styles */
+
+h1, h2, h3, h4, li {
+    font-family: 'Merriweather', serif; 
+}
 
 
 

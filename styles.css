@@ -20,18 +20,32 @@ header {
     background-color: rgb(44, 57, 69);
     display: block; 
     overflow: auto;
-    padding: 22px 0;
+    padding: 25px 0;
     color: white;
     text-align: center;
     font-weight: 700;
+    font-size: 20px;
 }
 
-h1 {
+.top-info h1 {
     color:  rgb(44, 57, 69);
+    padding-top: 30px;
+    padding-bottom: 15px;
+    padding-left: 22px;
+    padding-right: 22px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
 }
 
-p {
-    
+.top-info p {
+    color: rgb(183, 188, 199);
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 35px;
+    text-align: center;
+    font-size: 15px;
+    border-bottom: solid 4px rgb(44, 57, 69);
 }
 
 

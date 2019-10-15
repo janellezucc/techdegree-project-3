@@ -48,6 +48,12 @@ header {
     border-bottom: solid 4px rgb(44, 57, 69);
 }
 
+/* Attribute Selectors */
+
+button[type="submit"] {
+    cursor: pointer;
+}
+
 
 
 /* Tablet Media Query */

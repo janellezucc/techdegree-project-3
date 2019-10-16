@@ -48,6 +48,16 @@ header {
     border-bottom: solid 4px rgb(44, 57, 69);
 }
 
+/* UI element states pseudo-classes */
+
+textarea:focus {
+    border-color: rgb(12, 34, 231);
+}
+
+input[type="checkbox"]:checked + label {
+    font-weight: bold;
+}
+
 /* Attribute Selectors */
 
 button[type="submit"], 
@@ -60,9 +70,5 @@ input[type="radio"] {
 
 /* Tablet Media Query */
 @media (min-width: 768px) {
-
-}
-
-@media (min-width: 1024px) {
-
+    }
 }

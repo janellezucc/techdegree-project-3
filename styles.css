@@ -66,8 +66,12 @@ header {
 
     /* Flexbox styles */
     .contact-information {
-        display: flex;
+        display: inline-flex;
         flex-direction: column;
+    }
+
+    .info {
+        background-color: rgb(239, 240, 241);
     }
 
 

@@ -7,8 +7,19 @@
 
 /* Base Element Styles */
 
-h1, h2, h3, h4, li {
+h1, h2, h3, h4, li, label{
     font-family: 'Merriweather', serif; 
+    color: rgb(44, 57, 69);
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+label {
+    color: rgb(145, 158, 170);
+    font-size: 10px;
 }
 
 html {

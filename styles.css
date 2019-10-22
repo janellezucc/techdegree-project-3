@@ -49,7 +49,15 @@ header {
 }
 
 
-/* Flexbox styles */
+.contact-information {
+    padding: 20px 15px;
+}
+
+    /* Flexbox styles */
+    .contact-information {
+        display: flex;
+        flex-direction: column;
+    }
 
 
 /* UI element states pseudo-classes */
@@ -74,5 +82,13 @@ input[type="radio"] {
 
 /* Tablet Media Query */
 @media (min-width: 768px) {
-    }
+
+    /* Flexbox styles */
+
+.contact-information, {
+    display: flex;
+    flex-direction: row;
 }
+
+}
+

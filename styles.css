@@ -114,6 +114,8 @@ header {
     .submit {
         display: inline-flex;
         flex: 1;
+        justify-content: center;
+        width: 100%;
     }
 
 /* UI element states pseudo-classes */

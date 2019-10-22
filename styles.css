@@ -64,6 +64,11 @@ header {
     padding: 20px 15px;
 }
 
+.footer {
+    font-size: 8px;
+    text-align: center;
+}
+
     /* Flexbox styles */
     .contact-information {
         display: inline-flex;

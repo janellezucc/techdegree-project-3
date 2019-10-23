@@ -84,6 +84,10 @@ header {
         flex-direction: column;
     }
 
+    .contact {
+        display: flex;
+    }
+
     .newsletter {
         display: block;
         flex-direction: row;
@@ -148,11 +152,19 @@ input[type="radio"] {
 /* Tablet Media Query */
 @media (min-width: 768px) {
 
-.contact-information {
+.main {
     display: flex;
+    flex-direction: row;
+}
+
+.newsletter {
     text-align: center;
 }
 
+.checkbox,
+.radio {
+    
+}
 }
 
 

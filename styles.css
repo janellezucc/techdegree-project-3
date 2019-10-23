@@ -150,7 +150,9 @@ input[type="radio"] {
 
 .contact-information {
     display: flex;
+    text-align: center;
 }
+
 }
 
 

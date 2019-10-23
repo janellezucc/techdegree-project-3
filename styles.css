@@ -9,7 +9,7 @@
 
 h1, h2, h3, h4, li, label, p { 
     font-family: 'Merriweather', serif; 
-    color: rgb(44, 57, 69);
+    color: rgb(134, 113, 168);
 }
 
 h2 {
@@ -35,7 +35,7 @@ html {
 }
 
 header {
-    background-color: rgb(44, 57, 69);
+    background-color: rgb(45, 18, 94);
     display: block; 
     overflow: auto;
     padding: 25px 0;
@@ -46,7 +46,7 @@ header {
 }
 
 .top-info h1 {
-    color:  rgb(44, 57, 69);
+    color:  rgb(134, 113, 168);
     padding-top: 30px;
     padding-bottom: 15px;
     padding-left: 22px;
@@ -63,7 +63,7 @@ header {
     padding-bottom: 35px;
     text-align: center;
     font-size: 15px;
-    border-bottom: solid 4px rgb(44, 57, 69);
+    border-bottom: solid 4px rgb(45, 18, 94);
 }
 
 
@@ -74,6 +74,8 @@ header {
 .footer {
     font-size: 8px;
     text-align: center;
+    background-color: rgb(95, 96, 97);
+    color: rgb(145, 158, 170);
 }
 
     /* Flexbox styles */
@@ -83,17 +85,19 @@ header {
     }
 
     .newsletter {
-        display: flex;
+        display: block;
         flex-direction: row;
         flex-wrap: wrap;
-        margin: 10px 10px;
+        padding: 10px 10px;
+        background-color: rgb(95, 96, 97);
     }
 
     .newsletter p {
         margin-left: 5px;
     }
 
-    .checkbox {
+    .checkbox,
+    .radio {
         margin-left: 10px;
     }
 
@@ -116,13 +120,15 @@ header {
         flex: 1;
         justify-content: center;
         width: 100%;
+        color: rgb(145, 158, 170);
+        margin-top: 10px;
     }
 
 /* UI element states pseudo-classes */
 
 textarea:focus {
-    border-color: rgb(12, 34, 231);
-    transition-delay: 2s;
+    border-color:  rgb(45, 18, 94);
+    transition-delay: 1s;
 }
 
 input[type="checkbox"]:checked + label {
@@ -142,12 +148,12 @@ input[type="radio"] {
 /* Tablet Media Query */
 @media (min-width: 768px) {
 
-    /* Flexbox styles */
 
-.contact-information, {
+
+ /* Flexbox styles */
+
+ .contact-information {
     display: flex;
-    flex-direction: row;
 }
-
-}
+    }
 

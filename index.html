@@ -18,11 +18,10 @@
     <main>
         <form action="index.html" method="POST">
             <div class="contact-information">
-                <h2>Contact Information</h2><br>
 
                 <fieldset>
 
-                    <legend>
+                    <legend>Contact Information</legend>
                         <div class="main">
                             <label for="name">Full Name</label><br>
                             <input type="text" class="info" id="name" name="user_name" placeholder="Required" minlength="2">
@@ -30,10 +29,10 @@
                         <br>
 
                         <div class="main">
-                            <label for="gender" class="gender">Gender</label><br>
-                            <input type="radio" class="radio" id="gender" value="gender" name="gender"><label for="female">Female</label><br>
-                            <input type="radio" class="radio" id="gender" value="gender" name="gender"><label for="male">Male</label><br>
-                            <input type="radio" class="radio" id="gender" value="gender" name="gender"><label for="transgender">Transgender</label><br>
+                            <label for="female" class="gender">Gender</label><br>
+                            <input type="radio" class="radio" id="female" value="gender" name="gender"><label for="female">Female</label><br>
+                            <input type="radio" class="radio" id="male" value="gender" name="gender"><label for="male">Male</label><br>
+                            <input type="radio" class="radio" id="transgender" value="gender" name="gender"><label for="transgender">Transgender</label><br>
                         </div>
                             <br>
 
@@ -83,21 +82,21 @@
                         <label for="zip-code">Zip Code</label><br>
                         <input type="text" class="info" id="zip-code" name="user_zip" placeholder="12345">  
                     </div>
-                </legend>
+                
                 </fieldset>
             </div>
             <div class="newsletter">
                 <h2>Newsletter</h2><br>
                 <p class="p">Select the newsletter you would like to recieve</p>
-                <input type="checkbox" class="checkbox" id="newsletter" value="newsletter_type" name="newsletter_type"><label for="newsletter">HTML News</label><br>
-                <input type="checkbox" class="checkbox" id="newsletter" value="newsletter_type" name="newsletter_type"><label for="newsletter">CSS News</label><br>
-                <input type="checkbox" class="checkbox" id="newsletter" value="newsletter_type" name="newsletter_type"><label for="newsletter">Javascript News</label><br>
+                <input type="checkbox" class="checkbox" id="html" value="newsletter_type" name="newsletter_type"><label for="html">HTML News</label><br>
+                <input type="checkbox" class="checkbox" id="css" value="newsletter_type" name="newsletter_type"><label for="css">CSS News</label><br>
+                <input type="checkbox" class="checkbox" id="javascript" value="newsletter_type" name="newsletter_type"><label for="javascript">Javascript News</label><br>
             
                 <br>
 
                 <p class="p">Newsletter Format</p>
-                <input type="radio" class="radio" id="format" value="format" name="format"><label for="html">HTML</label><br>
-                <input type="radio" class="radio" id="format" value="format" name="format"><label for="text">Plain Text</label><br>
+                <input type="radio" class="radio" id="radio" value="format" name="format"><label for="html">HTML</label><br>
+                <input type="radio" class="radio" id="text" value="format" name="format"><label for="text">Plain Text</label><br>
 
                 <fieldset>
                 

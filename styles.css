@@ -12,13 +12,6 @@ h1, h2, h3, h4, li, label, p {
     color: rgb(134, 113, 168);
 }
 
-h2 {
-    font-weight: 700;
-    font-size: 20px;
-    
-}
-
-
 p {
     font-size: 15px; 
     margin-bottom: 10px;
@@ -152,15 +145,28 @@ input[type="radio"] {
 /* Tablet Media Query */
 @media (min-width: 768px) {
 
-.main {
-    display: inline-flex;
-    flex-direction: row;
-}
-
-label {
-    flex-basis: 90%;
-    margin: auto 0 auto 20px;
-}
+    .contact-information {
+        display: block;
+        max-width: 768px;
+        margin: 0 auto;
+    }
+    
+    .main {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .main input, 
+    .main select {
+        flex-grow: 1;
+        flex-basis: 75%;
+        height: 45px;
+    }
+    
+    .main label {
+        flex-basis: 25%;
+        margin: auto 0;
+    }
 
 .newsletter {
     text-align: center;

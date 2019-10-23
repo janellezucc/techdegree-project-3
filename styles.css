@@ -153,17 +153,21 @@ input[type="radio"] {
 @media (min-width: 768px) {
 
 .main {
-    display: flex;
+    display: inline-flex;
     flex-direction: row;
+}
+
+label {
+    flex-basis: 90%;
+    margin: auto 0 auto 20px;
 }
 
 .newsletter {
     text-align: center;
 }
 
-.checkbox,
-.radio {
-    
+.submit {
+    width: 50%;
 }
 }
 

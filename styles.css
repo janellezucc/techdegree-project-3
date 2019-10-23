@@ -148,12 +148,9 @@ input[type="radio"] {
 /* Tablet Media Query */
 @media (min-width: 768px) {
 
-
-
- /* Flexbox styles */
-
- .contact-information {
+.contact-information {
     display: flex;
 }
-    }
+}
+
 

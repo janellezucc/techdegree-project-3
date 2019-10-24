@@ -128,6 +128,11 @@ textarea:focus {
     transition-delay: 1s;
 }
 
+.info {
+    border-color:  rgb(45, 18, 94);
+    transition-delay: 1s; 
+}
+
 input[type="checkbox"]:checked + label {
     font-weight: bold;
 }

@@ -174,11 +174,19 @@ input[type="radio"] {
     }
 
 .newsletter {
-    text-align: center;
+    display: block;
+    max-width: 768px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.label {
+    display: inline-flex;
 }
 
 .submit {
     width: 50%;
+    display: block;
 }
 }
 
